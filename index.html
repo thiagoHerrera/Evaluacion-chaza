@@ -3,49 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimplePay</title>
+    <title>EasyPay</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="contenedor">
         <header>
-            <h1>¡Hola, Usuario!</h1>
-            <p class="balance">$4,500.00</p>
+            <img src="./img/image.png" alt="logo" width="150px"> 
+            <p>Hola, Samantha</p>
+            <p class="saldo">Tu saldo disponible <span>$4,590.00</span></p>
         </header>
 
-        <div class="actions">
-            <a href="#topup" class="btn">Recargar</a>
-            <a href="#send" class="btn">Enviar</a>
-            <a href="#withdraw" class="btn">Retirar</a>
+        <div class="acciones">
+            <a href="#recargar" class="boton">Recargar</a>
+            <a href="./transferencia.html" class="boton">Enviar</a>
+            <a href="#retirar" class="boton">Retirar</a>
         </div>
 
-        <div class="services">
-            <a href="#internet">Internet</a>
-            <a href="#water">Agua</a>
-            <a href="#electricity">Electricidad</a>
-            <a href="#more">Más</a>
+        <div class="servicios">
+            <a href="#internet"><img src="./img/navegacion-por-internet.png" alt="logo-internet" width="15px">
+            <a href="#agua"><img src="./img/gota-de-agua.png" alt="Agua" width="15px"> </a>
+            <a href="#electricidad"><img src="./img/energia-electrica.png" alt="Electricidad"> Electricidad</a>
+            <a href="#tv"><img src="./img/television-inteligente.png" alt="TV Cable"> TV Cable</a>
+            <a href="#vehiculo"><img src="./img/coche.png" alt="Vehículo"> Vehículo</a>
+            <a href="#renta"><img src="./img/casa.png" alt="Renta"> Renta</a>
+            <a href="#invertir"><img src="./img/casa (1).png" alt="Invertir"> Invertir</a>
+            <a href="#mas"><img src="./img/mas.png" alt="Más"> Más</a>
         </div>
 
-        <div class="promo">
-            <p>¡Oferta especial! 20% OFF en tu próxima transacción.</p>
+        <div class="promocion">
+            <p>50% OFF</p>
+            <p>Oferta especial de verano</p>
+            <p>Obtén descuento en cada transacción</p>
         </div>
 
-        <div class="transactions">
+        <div class="transacciones">
             <h3>Transacciones Recientes</h3>
-            <p><a href="#details">Usuario X - $240.00 - 28/02/2022</a></p>
-            <a href="#seeall">Ver Todo</a>
+            <p><a href="#detalles">Raj K - $240.00 - 24/02/2022</a></p>
+            <a href="#ver-todo" class="ver-todo">Ver Todo</a>
         </div>
     </div>
 
-    <!-- Segunda pantalla (simulada) -->
-    <div id="topup" class="second-screen">
+    <div id="recargar" class="pantalla-secundaria">
         <h2>Recargar Saldo</h2>
         <p>Ingresa el monto a recargar...</p>
-        <a href="#back">Volver</a>
+        <a href="#volver" class="boton-volver">Volver</a> 
+        <p>© 2025 EasyPay</p>
     </div>
-
-    <footer>
-        <p>&copy; 2025 SimplePay</p>
-    </footer>
+  
 </body>
 </html>
