@@ -219,3 +219,96 @@ body {
     background-color: #e6f2ff; 
     transform: translateY(-1px);
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .contenedor-recibo {
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    .encabezado-recibo {
+        padding: 12px 8px;
+    }
+
+    .titulo-pagina {
+        font-size: 1em;
+    }
+
+    .contenido-principal {
+        padding: 15px;
+    }
+
+    .img-corredor {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .titulo-exito {
+        font-size: 1.4em;
+        margin-bottom: 5px;
+    }
+
+    .descripcion-exito {
+        font-size: 0.85em;
+    }
+
+    .valor-total {
+        font-size: 2.2em;
+    }
+
+    .separador {
+        width: calc(100% - 30px);
+        margin: 15px auto;
+    }
+
+    .seccion-destinatario {
+        padding: 0;
+    }
+
+    .info-destinatario {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 12px;
+        text-align: left;
+    }
+
+    .avatar-destinatario {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .detalles-destinatario {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .nombre-destinatario {
+        font-size: 1em;
+    }
+
+    .telefono-destinatario {
+        font-size: 0.8em;
+    }
+
+    .hora-transferencia {
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .pie-recibo {
+        padding: 0 15px 15px;
+        gap: 8px;
+    }
+
+    .btn-hecho,
+    .btn-transferir-mas {
+        padding: 12px 15px;
+        font-size: 0.95em;
+    }
+}
